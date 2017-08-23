@@ -51,6 +51,7 @@ LOCAL_SHARED_LIBRARIES += \
 # logging
 LOCAL_SHARED_LIBRARIES += \
    libcutils \
+   liblog
 
 LOCAL_MODULE_TAGS := optional
 LOCAL_PRELINK_MODULE := false
